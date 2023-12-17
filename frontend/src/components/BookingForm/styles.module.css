@@ -1,0 +1,132 @@
+.formWrapper {
+    width: 500px;
+    height: auto;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 20px ;
+}
+
+.header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerTitle{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.form{
+    width: 370px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timePickerWrapper{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.activeOption{
+    background-color: red;
+}
+
+.optionText{
+    font-weight: bold;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.startTimePickerWrapper{
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inputWrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timePickerWrapper{
+    margin-bottom: 0px;
+    padding: 0 40px;
+}
+
+.dropDownWrapper{
+    width: 100%;
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+.dropDownPlaceholder{
+    color: black;
+}
+
+.input{
+    height: 47px;
+    width: 100%;
+    font-size: 20px;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 2px solid black;
+}
+
+.datePicker{
+    border: 2px solid black;
+}
+
+.bigInput{
+    width: 100%;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 100px;
+    resize: none;
+    font-family:'Times New Roman';
+    font-weight: 400;
+    color: black;
+}
+
+.buttonsWrapper{
+    display: flex;
+    width: 100%;
+    padding: 0 40px;
+    justify-content: space-between;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.buttonWrapper{
+    width: 130px;
+}
+
+.dropDownArrow{
+    border-width: 8px 8px 0;
+    top: 18px
+}
+
+.customDateInput{
+    width: 100%;
+    height: 47px;
+    background-color: white;
+    font-size: 20px;
+    border: none;
+    border: 1px solid black;
+}

@@ -1,0 +1,79 @@
+.filterWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.filter{
+    width: 80%;
+    background-color: rgb(243, 243, 243);
+    padding: 20px;
+    padding-top: 10px;
+}
+
+.filterTitle {
+    font-size: 30px;
+    margin: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+.filterCheckbox{
+    transform: scale(1.5);
+}
+
+.filterItemTitle{
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.filterSubItemWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.filterSubItemTitle{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    margin: 0;
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.rangeWrapper {
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between
+}
+
+.startRangeWrapper{
+    width: 45%;
+    display: flex;
+    align-items: center;
+}
+
+.startRangeTitle{
+    display: flex;
+    margin: 0;
+}
+
+.startRangeInput{
+    width: 100%;
+    margin-left: 20px;
+    height: 25px;
+}
+
+.buttonsWrapper{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonWrapper{
+    width: 40%;
+}

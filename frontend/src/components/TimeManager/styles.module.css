@@ -1,0 +1,87 @@
+.timeWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.titleWrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: block;
+}
+
+.date{
+    display: block;
+    color: black;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.datePickerWrapper{
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.calendar {
+    font-size: 0px !important;
+}
+
+.calendarDay{
+    width: 37.3px !important;
+    height: 37.3px;
+    line-height: 37.3px !important;
+    font-size: 17px;
+}
+
+.calendarDaySelected{
+    width: 47.3px !important;
+    height: 47.3px;
+    line-height: 47.3px !important;
+    font-size: 17px;
+    background-color: red !important;
+}
+
+.monthWrapper{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.headerWrapper{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 0 20px;
+    position: relative;
+    top: 12px
+}
+
+.navButton{
+    border: none;
+}
+
+.arrowLeft{
+    width: 20px;
+    transform: rotate(90deg);
+    cursor: pointer;
+}
+
+.arrowRight{
+    width: 20px;
+    transform: rotate(270deg);
+    cursor: pointer;
+}

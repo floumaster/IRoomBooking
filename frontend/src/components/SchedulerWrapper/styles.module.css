@@ -1,0 +1,32 @@
+.periodName{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(243, 243, 243);
+    border: 3px solid black;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.schedulerWrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 14px;
+}
+
+.periodSwitcher{
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.activePeriod {
+    background-color: red;
+    border: none;
+    color: #fff
+}
