@@ -88,7 +88,6 @@ const AdminRoomsEditor = ({ floorId, setContentTitle, unselectFloor }) => {
 
     const dispatch = useDispatch()
     const selectedFloor = useSelector(store => store.floorsSlice.floors).find(floor => floor.id === floorId)
-    console.log(selectedFloor)
     const rooms = useSelector(store => store.roomsSlice.rooms).filter(room => selectedFloor.roomsIds.includes(room.id))
     const assets = useSelector(store => store.assetsSlice.assets)
 
@@ -159,7 +158,7 @@ const AdminRoomsEditor = ({ floorId, setContentTitle, unselectFloor }) => {
                         <p className={styles.colTitle}>Assets</p>
                     </div>
                     <div className={styles.colWrapperLast}>
-                        
+                        <p className={styles.colTitle}>Actions</p>
                     </div>
                 </div>
                 {

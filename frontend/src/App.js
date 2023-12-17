@@ -25,6 +25,7 @@ import { getUsers } from "./redux/usersSlice";
 import Register from "./components/pages/Register/Register";
 import { useEffect } from "react";
 import Login from "./components/pages/Login/Login";
+import VoiceHelper from "./components/VoiceHelper/VoiceHelper";
 
 const router = createBrowserRouter([
   {
